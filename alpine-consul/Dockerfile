@@ -1,7 +1,7 @@
-FROM smebberson/alpine-base:3.2.0
-MAINTAINER Scott Mebberson <scott@scottmebberson.com>
+FROM minhcuong/alpine-base:latest
+MAINTAINER  TechMaster (https://github.com/TechMaster/docker-alpine)
 
-ENV CONSUL_VERSION=0.8.5 \
+ENV CONSUL_VERSION=1.0.7 \
     CONSUL_DOMAIN=consul \
     CONSUL_DATA_DIR=/data/consul \
     CONSUL_CONFIG_DIR=/etc/consul/conf.d/bootstrap \
