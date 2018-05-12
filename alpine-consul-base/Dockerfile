@@ -1,5 +1,6 @@
-FROM smebberson/alpine-consul:3.2.0
-MAINTAINER Scott Mebberson <scott@scottmebberson.com>
+FROM minhcuong/alpine-consul:latest
+MAINTAINER  TechMaster (https://github.com/TechMaster/docker-alpine)
+# Original Author https://github.com/smebberson/docker-alpine/
 
 ENV CONSUL_TEMPLATE_VERSION=0.19.0 \
     CONSUL_DATA_DIR=/data/consul \
