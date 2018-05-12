@@ -1,7 +1,7 @@
 FROM minhcuong/alpine-base:latest
 MAINTAINER  TechMaster (https://github.com/TechMaster/docker-alpine)
 
-ENV CONSUL_VERSION=1.0.7 \
+ENV CONSUL_VERSION=1.1 \
     CONSUL_DOMAIN=consul \
     CONSUL_DATA_DIR=/data/consul \
     CONSUL_CONFIG_DIR=/etc/consul/conf.d/bootstrap \
